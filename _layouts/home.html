@@ -7,6 +7,10 @@ layout: base
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  <!-- Page Header -->
+  <!-- NOTE: Renders an image header, but the size is too small -->
+  {% include intro-header.html type='page' %}
+
   {{ content }}
 
 
